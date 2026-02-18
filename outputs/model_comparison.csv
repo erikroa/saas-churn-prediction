@@ -1,0 +1,2 @@
+model,roc_auc,average_precision,f1,precision,recall,cv_roc_auc_mean,cv_roc_auc_std
+Logistic Regression,0.987,0.96,0.792,0.67,0.967,0.964,0.021

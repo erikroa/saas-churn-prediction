@@ -1,28 +1,16 @@
-"""
-build_features.py
-NovaCRM Churn Prediction — Feature Engineering Pipeline
-
-Reads the 4 raw CSVs and outputs a single model-ready feature table:
-    data/processed/churn_features.csv
-
-Each row = one account. All features are computed from data available
-BEFORE the churn event (no leakage). The target column is `churned`.
-
-Run: python src/build_features.py
-"""
 
 import pandas as pd
 import numpy as np
 import os
 
-# ── Setup ──────────────────────────────────────────────────────────────────────
+# Setup 
 os.makedirs("data/processed", exist_ok=True)
 SNAPSHOT_DATE = pd.Timestamp("2025-03-31")
 
 print("NovaCRM Feature Engineering Pipeline")
 print("=" * 50)
 
-# ── Load raw data ──────────────────────────────────────────────────────────────
+# Load raw data 
 print("\nLoading raw data...")
 accounts = pd.read_csv("data/raw/accounts.csv",
                        parse_dates=["contract_start_date", "contract_end_date", "churn_date"])
@@ -36,9 +24,8 @@ print(f"  tickets:       {len(tickets):,} rows")
 print(f"  nps_surveys:   {len(nps):,} rows")
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# BLOCK 1 — ACCOUNT BASE FEATURES
-# ══════════════════════════════════════════════════════════════════════════════
+# BLOCK 1 - ACCOUNT BASE FEATURES
+
 print("\nBuilding account base features...")
 
 features = accounts[[
@@ -50,32 +37,32 @@ features = accounts[[
 # Tenure in days at snapshot
 features["tenure_days"] = (SNAPSHOT_DATE - features["contract_start_date"]).dt.days.clip(lower=0)
 
-# Days until contract renewal (negative = already past)
+# Days until contract renewal 
 features["days_until_renewal"] = (features["contract_end_date"] - SNAPSHOT_DATE).dt.days
 
-# MRR per seat (value density)
+# MRR per seat 
 features["mrr_per_seat"] = (features["mrr"] / features["seats_licensed"].clip(lower=1)).round(2)
 
-# Plan tier — ordinal encode (starter=0, professional=1, enterprise=2)
+# Plan tier
 tier_map = {"starter": 0, "professional": 1, "enterprise": 2}
 features["plan_tier_encoded"] = features["plan_tier"].map(tier_map)
 
-# Region — one-hot encode
+# Region
 region_dummies = pd.get_dummies(features["region"], prefix="region")
 features = pd.concat([features, region_dummies], axis=1)
 
 print(f"  Base features built: tenure_days, days_until_renewal, mrr_per_seat, plan_tier_encoded, region flags")
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# BLOCK 2 — USAGE FEATURES
-# ══════════════════════════════════════════════════════════════════════════════
+
+# BLOCK 2 - USAGE FEATURES
+
 print("\nBuilding usage features...")
 
-# Only use usage data from the 12-month observation window (no future data)
+
 usage_window = usage[usage["month"] <= SNAPSHOT_DATE].copy()
 
-# ── Overall usage aggregates ──────────────────────────────────────────────────
+# Overall usage aggregates
 usage_agg = usage_window.groupby("account_id").agg(
     avg_monthly_logins       = ("logins", "mean"),
     avg_active_user_ratio    = ("active_user_ratio", "mean"),
@@ -86,7 +73,7 @@ usage_agg = usage_window.groupby("account_id").agg(
     months_observed          = ("month", "count"),
 ).reset_index().round(4)
 
-# ── Login trend: last 3 months vs first 3 months ──────────────────────────────
+# Login trend
 # Positive = growing usage, negative = declining usage
 def login_trend(group):
     group = group.sort_values("month")
@@ -105,7 +92,7 @@ login_trend_df = (usage_window
                   .reset_index()
                   .rename(columns={0: "login_trend_pct"}))
 
-# ── Month-over-month login change (last 2 months) ─────────────────────────────
+# Month-over-month login change (last 2 months) 
 last_2_months = (usage_window
                  .sort_values("month")
                  .groupby("account_id")
@@ -117,7 +104,7 @@ mom_change = (last_2_months
               .reset_index()
               .rename(columns={"logins": "logins_mom_change"}))
 
-# ── Merge usage features ──────────────────────────────────────────────────────
+# Merge usage features 
 features = (features
             .merge(usage_agg, on="account_id", how="left")
             .merge(login_trend_df, on="account_id", how="left")
@@ -130,15 +117,14 @@ print(f"  Usage features built: avg_monthly_logins, login_trend_pct, logins_mom_
 print(f"    avg_active_user_ratio, avg_feature_adoption_pct, has_api_integration")
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# BLOCK 3 — SUPPORT TICKET FEATURES
-# ══════════════════════════════════════════════════════════════════════════════
+# BLOCK 3 - SUPPORT TICKET FEATURES
+
 print("\nBuilding support ticket features...")
 
 # Only tickets before snapshot
 tickets_window = tickets[tickets["created_date"] <= SNAPSHOT_DATE].copy()
 
-# ── Ticket volume and priority ────────────────────────────────────────────────
+# Ticket volume and priority 
 ticket_agg = tickets_window.groupby("account_id").agg(
     total_tickets        = ("ticket_id", "count"),
     avg_resolution_hours = ("resolution_hours", "mean"),
@@ -178,7 +164,7 @@ last_critical = (tickets_window[tickets_window["priority"] == "critical"]
                  .rename(columns={"created_date": "last_critical_date"}))
 last_critical["days_since_critical_ticket"] = (SNAPSHOT_DATE - last_critical["last_critical_date"]).dt.days
 
-# ── Merge support features ────────────────────────────────────────────────────
+# Merge support features 
 features = (features
             .merge(ticket_agg, on="account_id", how="left")
             .merge(pct_high_crit, on="account_id", how="left")
@@ -186,7 +172,7 @@ features = (features
             .merge(last_ticket[["account_id","days_since_last_ticket"]], on="account_id", how="left")
             .merge(last_critical[["account_id","days_since_critical_ticket"]], on="account_id", how="left"))
 
-# Fill nulls — accounts with no tickets
+# Fill nulls 
 features["total_tickets"]               = features["total_tickets"].fillna(0)
 features["tickets_last_90d"]            = features["tickets_last_90d"].fillna(0)
 features["pct_high_critical_tickets"]   = features["pct_high_critical_tickets"].fillna(0)
@@ -194,7 +180,7 @@ features["avg_csat_score"]              = features["avg_csat_score"].fillna(feat
 features["days_since_last_ticket"]      = features["days_since_last_ticket"].fillna(999)
 features["days_since_critical_ticket"]  = features["days_since_critical_ticket"].fillna(999)
 
-# Ticket velocity ratio (recent vs historical rate)
+# Ticket velocity ratio 
 features["ticket_velocity_ratio"] = (
     features["tickets_last_90d"] /
     ((features["total_tickets"] / features["months_observed"].clip(lower=1)) * 3 + 0.001)
@@ -204,9 +190,9 @@ print(f"  Support features built: total_tickets, pct_high_critical_tickets, avg_
 print(f"    tickets_last_90d, ticket_velocity_ratio, days_since_last_ticket, days_since_critical_ticket")
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# BLOCK 4 — NPS FEATURES
-# ══════════════════════════════════════════════════════════════════════════════
+
+# BLOCK 4 - NPS FEATURES
+
 print("\nBuilding NPS features...")
 
 nps_window = nps[nps["survey_date"] <= SNAPSHOT_DATE].copy()
@@ -219,7 +205,7 @@ last_nps = (nps_window
             .reset_index()
             .rename(columns={"nps_score": "last_nps_score"}))
 
-# NPS trend: last score minus first score (positive = improving)
+# NPS trend
 def nps_trend(group):
     group = group.sort_values("survey_date")
     if len(group) < 2:
@@ -246,14 +232,14 @@ nps_count = (nps_window
              .size()
              .reset_index(name="nps_response_count"))
 
-# ── Merge NPS features ────────────────────────────────────────────────────────
+# Merge NPS features 
 features = (features
             .merge(last_nps, on="account_id", how="left")
             .merge(nps_trend_df, on="account_id", how="left")
             .merge(avg_nps, on="account_id", how="left")
             .merge(nps_count, on="account_id", how="left"))
 
-# Fill nulls — accounts with no NPS responses (use neutral values)
+# Fill nulls 
 features["last_nps_score"]     = features["last_nps_score"].fillna(5)
 features["nps_trend"]          = features["nps_trend"].fillna(0)
 features["avg_nps_score"]      = features["avg_nps_score"].fillna(5)
@@ -262,21 +248,21 @@ features["nps_response_count"] = features["nps_response_count"].fillna(0)
 print(f"  NPS features built: last_nps_score, nps_trend, avg_nps_score, nps_response_count")
 
 
-# ══════════════════════════════════════════════════════════════════════════════
 # FINAL FEATURE TABLE
-# ══════════════════════════════════════════════════════════════════════════════
 print("\nAssembling final feature table...")
 
 # Drop columns used for engineering but not for modeling
 drop_cols = [
     "contract_start_date", "contract_end_date", "renewal_months",
-    "industry",   # too many categories for this stage — can add later
-    "plan_tier",  # replaced by plan_tier_encoded
-    "region",     # replaced by region_APAC, region_EMEA, region_NA
+    "industry",   
+    "plan_tier",  
+    "region",     
+    "months_observed",
+    "total_tickets",
 ]
 features = features.drop(columns=drop_cols, errors="ignore")
 
-# Reorder: account_id first, churned last (target)
+
 id_col     = ["account_id"]
 target_col = ["churned"]
 feature_cols = [c for c in features.columns if c not in id_col + target_col]
@@ -310,4 +296,10 @@ print(f"\nAll features:")
 for col in feature_cols:
     print(f"  {col}")
 
-print("\n✓ Ready for Day 4 — Modeling")
+print("\n✓ Ready for Day 4 - Modeling")
+
+#"Synthetic data produces cleaner feature separation than production data. 
+# In a real deployment, I'd expect AUC in the 0.75–0.85 range, 
+# with NPS and usage trends remaining the strongest signals but 
+# with substantially more noise from external churn causes (budget changes, acquisitions, competitive switches) 
+# that leave no behavioral footprint."#
