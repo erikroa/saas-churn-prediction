@@ -94,7 +94,7 @@ def generate_accounts() -> pd.DataFrame:
 
         # Renewal cycle
         renewal_months = np.random.choice([12, 24], p=[0.7, 0.3])
-        contract_end = contract_start + timedelta(days=renewal_months * 30)
+        contract_end = contract_start + timedelta(days=int(renewal_months) * 30)
 
         # Churn — bias toward smaller, shorter-tenured accounts
         base_churn_prob = CHURN_RATE
