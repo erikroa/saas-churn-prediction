@@ -1,0 +1,335 @@
+rank,account_id,company_name,plan_tier,csm_assigned,region,mrr,arr,churn_proba,risk_tier,arr_at_risk,contract_end_date,recommended_action
+1,ACC-1194,Pruitt-Webb,enterprise,Priya Sharma,EMEA,23949.06,287388.72,0.9573,Critical,275117.0,2022-12-26,Executive escalation + QBR within 7 days
+2,ACC-0119,May-Ross,enterprise,Anna Kowalski,APAC,22308.71,267704.52,0.9971,Critical,266928.0,2024-12-29,Executive escalation + QBR within 7 days
+3,ACC-0767,Johnson LLC,enterprise,Sarah Chen,,21701.95,260423.4,0.9886,Critical,257455.0,2022-11-29,Executive escalation + QBR within 7 days
+4,ACC-0965,Moore and Sons,enterprise,Anna Kowalski,EMEA,20989.69,251876.28,0.9977,Critical,251297.0,2025-11-15,Executive escalation + QBR within 7 days
+5,ACC-0354,"Morris, Thompson and Williams",enterprise,Anna Kowalski,EMEA,21489.47,257873.64,0.963,Critical,248332.0,2025-09-07,Executive escalation + QBR within 7 days
+6,ACC-1858,Roberts Group,enterprise,Anna Kowalski,APAC,20895.2,250742.4,0.983,Critical,246480.0,2024-01-08,Executive escalation + QBR within 7 days
+7,ACC-0945,Wood LLC,enterprise,Lena Müller,,21229.69,254756.28,0.9534,Critical,242885.0,2023-09-28,Executive escalation + QBR within 7 days
+8,ACC-0202,White-Lewis,enterprise,Sarah Chen,EMEA,19691.61,236299.32,0.9976,Critical,235732.0,2024-08-14,Executive escalation + QBR within 7 days
+9,ACC-0204,"Beard, Peters and Black",enterprise,Yuki Tanaka,,18826.4,225916.8,0.9926,Critical,224245.0,2024-03-17,Executive escalation + QBR within 7 days
+10,ACC-1560,"Burns, Hanson and Garza",enterprise,Anna Kowalski,,18924.01,227088.12,0.9734,Critical,221048.0,2022-12-08,Executive escalation + QBR within 7 days
+11,ACC-1668,Patterson Inc,enterprise,Marco Ricci,,18406.83,220881.96,0.9862,Critical,217834.0,2026-02-22,Executive escalation + QBR within 7 days
+12,ACC-1036,Kramer-Lane,enterprise,Yuki Tanaka,,17347.46,208169.52,0.996,Critical,207337.0,2023-12-15,Executive escalation + QBR within 7 days
+13,ACC-1746,Gentry Group,enterprise,Anna Kowalski,APAC,17165.57,205986.84,0.9991,Critical,205801.0,2022-07-16,Executive escalation + QBR within 7 days
+14,ACC-0424,Hernandez-Jones,enterprise,James Okonkwo,,16904.2,202850.4,0.9959,Critical,202019.0,2024-03-06,Executive escalation + QBR within 7 days
+15,ACC-1454,Olsen Ltd,enterprise,Sarah Chen,,16657.33,199887.96,0.9984,Critical,199568.0,2022-10-10,Executive escalation + QBR within 7 days
+16,ACC-0357,Hayes and Sons,enterprise,Carlos Vega,,16274.5,195294.0,0.9965,Critical,194610.0,2023-08-04,Executive escalation + QBR within 7 days
+17,ACC-1031,Baker and Sons,enterprise,Lena Müller,EMEA,16423.59,197083.08,0.9398,Critical,185219.0,2024-01-11,Executive escalation + QBR within 7 days
+18,ACC-1210,Hunter PLC,enterprise,Anna Kowalski,,14863.02,178356.24,0.9958,Critical,177607.0,2024-03-02,Executive escalation + QBR within 7 days
+19,ACC-0668,Kane-Knox,enterprise,Anna Kowalski,EMEA,14859.77,178317.24,0.9942,Critical,177283.0,2025-02-07,Executive escalation + QBR within 7 days
+20,ACC-1898,Finley-Meyers,enterprise,Carlos Vega,,14613.84,175366.08,0.9968,Critical,174805.0,2023-10-22,Executive escalation + QBR within 7 days
+21,ACC-0665,Mitchell and Sons,enterprise,James Okonkwo,,17069.89,204838.68,0.8451,Critical,173109.0,2023-02-03,Executive escalation + QBR within 7 days
+22,ACC-1937,Bishop Inc,enterprise,James Okonkwo,EMEA,15243.35,182920.2,0.8809,Critical,161134.0,2024-08-01,Executive escalation + QBR within 7 days
+23,ACC-0694,Faulkner-Grant,enterprise,Anna Kowalski,,13956.14,167473.68,0.9527,Critical,159552.0,2025-11-20,Executive escalation + QBR within 7 days
+24,ACC-1734,"Brown, Meyer and Cunningham",enterprise,James Okonkwo,EMEA,13003.04,156036.48,0.9962,Critical,155444.0,2024-03-12,Executive escalation + QBR within 7 days
+25,ACC-1168,Wells-Hernandez,enterprise,Yuki Tanaka,EMEA,12485.69,149828.28,0.9983,Critical,149574.0,2024-06-08,Executive escalation + QBR within 7 days
+26,ACC-0264,"Lloyd, Mckinney and Collins",enterprise,Lena Müller,,12507.16,150085.92,0.9455,Critical,141906.0,2025-02-09,Executive escalation + QBR within 7 days
+27,ACC-1738,Morgan Group,enterprise,Priya Sharma,EMEA,12248.8,146985.6,0.9395,Critical,138093.0,2024-08-27,Executive escalation + QBR within 7 days
+28,ACC-1818,Hanson-Gibson,enterprise,Sarah Chen,EMEA,9922.18,119066.16,0.9831,Critical,117054.0,2024-02-23,Executive escalation + QBR within 7 days
+29,ACC-0617,"Perez, Hall and Garcia",enterprise,Sarah Chen,,9744.38,116932.56,0.9968,Critical,116558.0,2023-10-25,Executive escalation + QBR within 7 days
+30,ACC-1464,"Cook, Ward and Castro",enterprise,Priya Sharma,EMEA,8975.6,107707.2,0.9974,Critical,107427.0,2025-01-30,Executive escalation + QBR within 7 days
+31,ACC-0241,Jones and Sons,enterprise,Yuki Tanaka,EMEA,12489.03,149868.36,0.6935,High,103934.0,2025-09-13,CSM check-in + usage review this week
+32,ACC-1097,"Johnson, Lee and Whitaker",enterprise,Yuki Tanaka,EMEA,15951.97,191423.64,0.5061,High,96880.0,2025-05-07,CSM check-in + usage review this week
+33,ACC-0872,Kelley-Anderson,enterprise,Carlos Vega,APAC,8279.3,99351.6,0.9124,Critical,90648.0,2024-08-11,Executive escalation + QBR within 7 days
+34,ACC-0520,"Richardson, Edwards and Ramirez",enterprise,Yuki Tanaka,APAC,6873.75,82485.0,0.9659,Critical,79672.0,2023-07-06,Executive escalation + QBR within 7 days
+35,ACC-1845,Hopkins LLC,enterprise,Sarah Chen,APAC,6408.49,76901.88,0.9949,Critical,76510.0,2025-08-20,Executive escalation + QBR within 7 days
+36,ACC-0260,Dean-Jimenez,enterprise,James Okonkwo,,5886.06,70632.72,0.9939,Critical,70202.0,2025-12-02,Executive escalation + QBR within 7 days
+37,ACC-0444,Collins Group,enterprise,Yuki Tanaka,,5808.77,69705.24,0.9948,Critical,69343.0,2023-11-18,Executive escalation + QBR within 7 days
+38,ACC-1688,"Salazar, Moore and Pierce",enterprise,Priya Sharma,EMEA,5537.86,66454.32,0.993,Critical,65989.0,2025-01-25,Executive escalation + QBR within 7 days
+39,ACC-0996,Castillo-Harrington,enterprise,Lena Müller,EMEA,5443.77,65325.24,0.9988,Critical,65247.0,2025-01-24,Executive escalation + QBR within 7 days
+40,ACC-0305,"Evans, Hayden and Vaughn",enterprise,Carlos Vega,APAC,4337.3,52047.6,0.97,Critical,50486.0,2023-09-23,Executive escalation + QBR within 7 days
+41,ACC-0874,Williams Ltd,enterprise,Yuki Tanaka,,4063.44,48761.28,0.9933,Critical,48435.0,2025-02-14,Executive escalation + QBR within 7 days
+42,ACC-0274,Hoover-Campbell,professional,Carlos Vega,,3918.69,47024.28,0.9909,Critical,46596.0,2024-10-15,CSM intervention call within 48 hours
+43,ACC-0907,Cruz-Allen,professional,Carlos Vega,EMEA,3974.45,47693.4,0.9745,Critical,46477.0,2026-12-08,CSM intervention call within 48 hours
+44,ACC-1193,"Brown, Dunlap and Moore",professional,James Okonkwo,EMEA,3876.7,46520.4,0.9735,Critical,45288.0,2025-01-17,CSM intervention call within 48 hours
+45,ACC-1517,Snyder LLC,professional,Lena Müller,APAC,3778.32,45339.84,0.9978,Critical,45240.0,2024-07-24,CSM intervention call within 48 hours
+46,ACC-1364,"Mullen, Greene and Elliott",professional,Marco Ricci,,3783.99,45407.88,0.9848,Critical,44718.0,2025-05-13,CSM intervention call within 48 hours
+47,ACC-1622,Singh and Sons,professional,Sarah Chen,EMEA,3736.95,44843.4,0.9971,Critical,44713.0,2025-03-26,CSM intervention call within 48 hours
+48,ACC-0745,Lam-Elliott,professional,Carlos Vega,,3914.86,46978.32,0.9517,Critical,44709.0,2024-08-14,CSM intervention call within 48 hours
+49,ACC-1681,"Payne, Long and Morris",professional,Anna Kowalski,,3726.49,44717.88,0.9978,Critical,44620.0,2023-08-27,CSM intervention call within 48 hours
+50,ACC-0269,Hicks-Hill,professional,Carlos Vega,,3703.04,44436.48,0.9862,Critical,43823.0,2025-04-07,CSM intervention call within 48 hours
+51,ACC-1928,Thomas-Perry,enterprise,Marco Ricci,APAC,4535.78,54429.36,0.8,Critical,43543.0,2025-06-12,Executive escalation + QBR within 7 days
+52,ACC-0544,Donovan-Perez,professional,James Okonkwo,EMEA,3947.88,47374.56,0.9151,Critical,43352.0,2023-07-30,CSM intervention call within 48 hours
+53,ACC-1293,"Parks, Johnson and Love",professional,Carlos Vega,APAC,3679.61,44155.32,0.9764,Critical,43113.0,2025-03-08,CSM intervention call within 48 hours
+54,ACC-1494,"Fields, Elliott and Mills",professional,Priya Sharma,,3632.91,43594.92,0.9693,Critical,42257.0,2025-12-20,CSM intervention call within 48 hours
+55,ACC-1957,Jones PLC,professional,Lena Müller,APAC,3790.26,45483.12,0.9126,Critical,41508.0,2025-04-11,CSM intervention call within 48 hours
+56,ACC-1678,"Ellison, Vaughn and Mckee",professional,Lena Müller,EMEA,3385.95,40631.4,0.9964,Critical,40485.0,2024-07-19,CSM intervention call within 48 hours
+57,ACC-1563,Hebert-Collier,professional,Anna Kowalski,APAC,3376.71,40520.52,0.9942,Critical,40286.0,2025-02-15,CSM intervention call within 48 hours
+58,ACC-0118,Rasmussen LLC,professional,Lena Müller,,3578.11,42937.32,0.9317,Critical,40005.0,2024-12-29,CSM intervention call within 48 hours
+59,ACC-0426,"Brown, Romero and Collins",professional,Yuki Tanaka,APAC,3295.43,39545.16,0.9934,Critical,39284.0,2025-01-06,CSM intervention call within 48 hours
+60,ACC-1480,Martinez and Sons,professional,Lena Müller,EMEA,3280.75,39369.0,0.9921,Critical,39058.0,2025-04-16,CSM intervention call within 48 hours
+61,ACC-0036,Rodriguez-Graham,professional,Yuki Tanaka,,3382.12,40585.44,0.9571,Critical,38844.0,2023-11-26,CSM intervention call within 48 hours
+62,ACC-1550,"Hunter, Gross and Andrade",professional,Carlos Vega,EMEA,3585.05,43020.6,0.894,Critical,38460.0,2024-02-21,CSM intervention call within 48 hours
+63,ACC-1142,Thomas-Huffman,professional,Yuki Tanaka,EMEA,3848.97,46187.64,0.8281,Critical,38248.0,2026-02-18,CSM intervention call within 48 hours
+64,ACC-1087,Morgan LLC,professional,Sarah Chen,,3199.96,38399.52,0.9928,Critical,38123.0,2023-08-20,CSM intervention call within 48 hours
+65,ACC-1220,Castro-Harvey,professional,Anna Kowalski,,3226.01,38712.12,0.9477,Critical,36687.0,2023-09-25,CSM intervention call within 48 hours
+66,ACC-0340,"Wood, Ramos and Sampson",professional,Sarah Chen,APAC,3068.05,36816.6,0.9948,Critical,36625.0,2025-01-13,CSM intervention call within 48 hours
+67,ACC-0584,"Kirby, Wheeler and Romero",professional,James Okonkwo,,3050.49,36605.88,0.9864,Critical,36108.0,2026-09-10,CSM intervention call within 48 hours
+68,ACC-0947,Vargas-Snyder,professional,Lena Müller,,3046.71,36560.52,0.9811,Critical,35870.0,2024-11-13,CSM intervention call within 48 hours
+69,ACC-1056,Watson Group,professional,James Okonkwo,EMEA,2976.35,35716.2,0.9971,Critical,35613.0,2026-01-01,CSM intervention call within 48 hours
+70,ACC-0803,Griffin Group,professional,James Okonkwo,,2972.48,35669.76,0.9979,Critical,35595.0,2025-05-07,CSM intervention call within 48 hours
+71,ACC-1278,Rivera-Carter,professional,Yuki Tanaka,,2972.92,35675.04,0.9931,Critical,35429.0,2024-03-29,CSM intervention call within 48 hours
+72,ACC-1027,Rivera Inc,professional,Anna Kowalski,APAC,2928.43,35141.16,0.992,Critical,34860.0,2024-02-21,CSM intervention call within 48 hours
+73,ACC-0771,Armstrong and Sons,professional,Priya Sharma,EMEA,2935.73,35228.76,0.9864,Critical,34750.0,2023-07-29,CSM intervention call within 48 hours
+74,ACC-1431,Valentine Ltd,professional,Anna Kowalski,,2894.67,34736.04,0.9634,Critical,33465.0,2023-03-29,CSM intervention call within 48 hours
+75,ACC-1989,Wolfe-Salazar,professional,Anna Kowalski,EMEA,3416.1,40993.2,0.7812,Critical,32024.0,2024-09-18,CSM intervention call within 48 hours
+76,ACC-1881,"Carrillo, Morris and Martin",professional,Yuki Tanaka,EMEA,2948.91,35386.92,0.8954,Critical,31685.0,2026-12-12,CSM intervention call within 48 hours
+77,ACC-1537,Wright Group,professional,Lena Müller,EMEA,2644.1,31729.2,0.9943,Critical,31548.0,2024-05-09,CSM intervention call within 48 hours
+78,ACC-0154,Green-Wright,professional,Marco Ricci,EMEA,2782.37,33388.44,0.9397,Critical,31375.0,2025-02-02,CSM intervention call within 48 hours
+79,ACC-1242,"Valencia, Joseph and Walls",professional,Anna Kowalski,EMEA,2658.92,31907.04,0.9794,Critical,31250.0,2026-04-08,CSM intervention call within 48 hours
+80,ACC-1299,"Wilson, Smith and Cortez",professional,Carlos Vega,,2608.39,31300.68,0.9875,Critical,30909.0,2025-10-15,CSM intervention call within 48 hours
+81,ACC-1816,May Group,professional,Lena Müller,,2829.08,33948.96,0.8981,Critical,30490.0,2023-04-10,CSM intervention call within 48 hours
+82,ACC-0658,Chavez PLC,professional,Priya Sharma,APAC,2482.47,29789.64,0.9931,Critical,29584.0,2023-09-27,CSM intervention call within 48 hours
+83,ACC-0237,Warner-Gibson,professional,Sarah Chen,,2440.54,29286.48,0.9761,Critical,28587.0,2025-01-17,CSM intervention call within 48 hours
+84,ACC-1564,Owen-Brown,professional,Yuki Tanaka,,2444.34,29332.08,0.9732,Critical,28546.0,2026-08-19,CSM intervention call within 48 hours
+85,ACC-0462,Burch-Montoya,professional,Lena Müller,,2443.87,29326.44,0.9715,Critical,28491.0,2024-06-25,CSM intervention call within 48 hours
+86,ACC-1175,Decker-Dudley,professional,Carlos Vega,,3053.07,36636.84,0.7494,High,27456.0,2023-07-13,Automated re-engagement sequence + CSM follow-up
+87,ACC-0102,"Patterson, Smith and Jones",professional,James Okonkwo,APAC,2270.98,27251.76,0.9936,Critical,27077.0,2026-07-03,CSM intervention call within 48 hours
+88,ACC-0277,Cook-Hines,professional,James Okonkwo,EMEA,2255.74,27068.88,0.9883,Critical,26752.0,2025-01-23,CSM intervention call within 48 hours
+89,ACC-0787,Maldonado PLC,professional,Lena Müller,EMEA,2363.54,28362.48,0.9196,Critical,26082.0,2025-03-08,CSM intervention call within 48 hours
+90,ACC-0522,Holmes-Mcintyre,professional,Priya Sharma,APAC,2173.28,26079.36,0.9984,Critical,26038.0,2024-05-20,CSM intervention call within 48 hours
+91,ACC-0035,"Dyer, Potter and Mack",professional,Lena Müller,,2194.15,26329.8,0.9769,Critical,25722.0,2025-10-02,CSM intervention call within 48 hours
+92,ACC-0729,Nichols-Mitchell,professional,Marco Ricci,,2240.17,26882.04,0.9532,Critical,25624.0,2026-03-14,CSM intervention call within 48 hours
+93,ACC-0599,Hoffman Ltd,professional,Yuki Tanaka,APAC,2131.72,25580.64,0.9983,Critical,25537.0,2024-09-12,CSM intervention call within 48 hours
+94,ACC-0435,"Kim, Gonzales and Mills",professional,Priya Sharma,EMEA,2067.0,24804.0,0.991,Critical,24581.0,2026-01-08,CSM intervention call within 48 hours
+95,ACC-0121,White-Estes,professional,Lena Müller,,2532.05,30384.6,0.8072,Critical,24526.0,2026-03-19,CSM intervention call within 48 hours
+96,ACC-1511,Nelson-Dean,professional,Lena Müller,APAC,2048.63,24583.56,0.9913,Critical,24370.0,2024-10-04,CSM intervention call within 48 hours
+97,ACC-1223,Smith LLC,professional,Yuki Tanaka,,2073.46,24881.52,0.9595,Critical,23874.0,2024-03-18,CSM intervention call within 48 hours
+98,ACC-0389,Bennett Group,professional,Anna Kowalski,,2114.74,25376.88,0.9325,Critical,23664.0,2024-08-11,CSM intervention call within 48 hours
+99,ACC-0015,Williams and Sons,professional,Marco Ricci,,1963.61,23563.32,0.9985,Critical,23528.0,2024-12-05,CSM intervention call within 48 hours
+100,ACC-0176,King-Miller,professional,Marco Ricci,EMEA,1967.35,23608.2,0.988,Critical,23325.0,2025-01-16,CSM intervention call within 48 hours
+101,ACC-0064,"West, Henderson and Ramirez",professional,Marco Ricci,EMEA,2809.28,33711.36,0.6794,High,22903.0,2024-10-09,Automated re-engagement sequence + CSM follow-up
+102,ACC-0554,Ballard Ltd,professional,Sarah Chen,EMEA,1894.62,22735.44,0.9975,Critical,22679.0,2025-09-09,CSM intervention call within 48 hours
+103,ACC-1159,Martin Group,professional,Carlos Vega,EMEA,1882.06,22584.72,0.9983,Critical,22546.0,2024-10-21,CSM intervention call within 48 hours
+104,ACC-0967,"Howard, Townsend and Hayes",professional,Priya Sharma,EMEA,1885.22,22622.64,0.9953,Critical,22516.0,2025-04-23,CSM intervention call within 48 hours
+105,ACC-0709,"Harrison, Franco and Rocha",professional,Carlos Vega,,1888.71,22664.52,0.9634,Critical,21835.0,2025-09-22,CSM intervention call within 48 hours
+106,ACC-1796,Guerrero Group,professional,Carlos Vega,EMEA,1819.7,21836.4,0.9953,Critical,21734.0,2024-10-30,CSM intervention call within 48 hours
+107,ACC-1090,Mccann-Ramos,professional,Priya Sharma,,2326.91,27922.92,0.761,Critical,21249.0,2025-12-07,CSM intervention call within 48 hours
+108,ACC-1071,Harris-Carson,professional,Yuki Tanaka,APAC,2078.09,24937.08,0.845,Critical,21072.0,2024-03-31,CSM intervention call within 48 hours
+109,ACC-1404,"Meyer, Dawson and Harper",professional,Yuki Tanaka,EMEA,1754.23,21050.76,0.9959,Critical,20964.0,2023-05-04,CSM intervention call within 48 hours
+110,ACC-0884,Rios-Padilla,professional,James Okonkwo,EMEA,1740.68,20888.16,0.9981,Critical,20848.0,2025-04-15,CSM intervention call within 48 hours
+111,ACC-0776,"Weber, Wheeler and Gonzalez",professional,Anna Kowalski,EMEA,1676.93,20123.16,0.9845,Critical,19811.0,2024-03-28,CSM intervention call within 48 hours
+112,ACC-0951,"Franco, Wiley and Tapia",professional,Anna Kowalski,APAC,1652.41,19828.92,0.9956,Critical,19742.0,2024-11-26,CSM intervention call within 48 hours
+113,ACC-0051,"Brooks, Lam and Hayes",professional,Priya Sharma,APAC,2808.19,33698.28,0.5513,High,18578.0,2026-12-10,Automated re-engagement sequence + CSM follow-up
+114,ACC-1811,"Cruz, Middleton and Larsen",professional,Yuki Tanaka,,1552.54,18630.48,0.9934,Critical,18508.0,2024-01-25,CSM intervention call within 48 hours
+115,ACC-1620,Cooper Inc,professional,Yuki Tanaka,APAC,1544.26,18531.12,0.9982,Critical,18498.0,2024-05-23,CSM intervention call within 48 hours
+116,ACC-1413,Dunn Ltd,professional,Sarah Chen,APAC,2121.57,25458.84,0.7099,High,18073.0,2025-10-29,Automated re-engagement sequence + CSM follow-up
+117,ACC-1584,Foley Inc,professional,Marco Ricci,,1485.76,17829.12,0.9948,Critical,17736.0,2023-12-14,CSM intervention call within 48 hours
+118,ACC-1786,"Reynolds, Baird and Bradley",professional,James Okonkwo,,1485.85,17830.2,0.986,Critical,17581.0,2024-06-11,CSM intervention call within 48 hours
+119,ACC-0672,Avila LLC,professional,Priya Sharma,EMEA,1470.14,17641.68,0.9959,Critical,17569.0,2026-11-23,CSM intervention call within 48 hours
+120,ACC-1984,Sawyer Group,professional,Yuki Tanaka,APAC,1551.77,18621.24,0.9274,Critical,17269.0,2025-11-10,CSM intervention call within 48 hours
+121,ACC-0842,Medina and Sons,professional,Carlos Vega,,1436.45,17237.4,0.9883,Critical,17036.0,2024-03-26,CSM intervention call within 48 hours
+122,ACC-0496,Carter Inc,professional,Carlos Vega,EMEA,1421.68,17060.16,0.995,Critical,16975.0,2023-10-19,CSM intervention call within 48 hours
+123,ACC-0336,"Avery, Horton and Fernandez",professional,Lena Müller,EMEA,1610.47,19325.64,0.851,Critical,16446.0,2025-08-04,CSM intervention call within 48 hours
+124,ACC-0174,Lewis-Murphy,professional,Sarah Chen,APAC,1359.48,16313.76,0.996,Critical,16249.0,2024-03-14,CSM intervention call within 48 hours
+125,ACC-1670,"Crosby, Armstrong and Herrera",professional,Priya Sharma,APAC,1364.8,16377.6,0.99,Critical,16214.0,2024-08-20,CSM intervention call within 48 hours
+126,ACC-1203,"Davis, Stanley and Wright",professional,James Okonkwo,EMEA,1354.3,16251.6,0.939,Critical,15260.0,2024-03-18,CSM intervention call within 48 hours
+127,ACC-1761,"Castro, Garcia and Daniels",professional,Yuki Tanaka,EMEA,1241.7,14900.4,0.9805,Critical,14610.0,2024-06-03,CSM intervention call within 48 hours
+128,ACC-1531,"Evans, Ward and Williams",professional,Sarah Chen,EMEA,1194.35,14332.2,0.9555,Critical,13694.0,2024-05-23,CSM intervention call within 48 hours
+129,ACC-0414,Cook and Sons,professional,Carlos Vega,,1137.89,13654.68,0.9929,Critical,13558.0,2023-05-18,CSM intervention call within 48 hours
+130,ACC-0248,"Matthews, Smith and Hubbard",professional,Carlos Vega,,1136.83,13641.96,0.9893,Critical,13496.0,2025-12-11,CSM intervention call within 48 hours
+131,ACC-1218,"Powers, Clements and Cox",professional,Carlos Vega,,1098.65,13183.8,0.9965,Critical,13138.0,2025-01-26,CSM intervention call within 48 hours
+132,ACC-0290,"James, Stewart and Higgins",professional,James Okonkwo,,1105.28,13263.36,0.9843,Critical,13055.0,2024-03-14,CSM intervention call within 48 hours
+133,ACC-0131,"Parker, Ortiz and Powell",professional,Carlos Vega,,1135.78,13629.36,0.9251,Critical,12609.0,2026-09-21,CSM intervention call within 48 hours
+134,ACC-1952,Watkins-Nguyen,professional,Anna Kowalski,,1057.65,12691.8,0.9783,Critical,12416.0,2026-04-18,CSM intervention call within 48 hours
+135,ACC-1595,Kane and Sons,professional,James Okonkwo,,1063.87,12766.44,0.9583,Critical,12234.0,2024-06-13,CSM intervention call within 48 hours
+136,ACC-1214,Mcgee-Smith,professional,Yuki Tanaka,EMEA,1224.26,14691.12,0.832,Critical,12223.0,2025-02-04,CSM intervention call within 48 hours
+137,ACC-1259,"Roberts, Beck and House",professional,Sarah Chen,,925.28,11103.36,0.9965,Critical,11064.0,2025-07-24,CSM intervention call within 48 hours
+138,ACC-0296,Williams Inc,professional,Marco Ricci,,904.99,10859.88,0.9848,Critical,10695.0,2026-03-26,CSM intervention call within 48 hours
+139,ACC-1249,Rich-Henderson,professional,Anna Kowalski,EMEA,890.45,10685.4,0.9745,Critical,10413.0,2024-05-24,CSM intervention call within 48 hours
+140,ACC-0518,"Hernandez, Cole and Watson",professional,Carlos Vega,EMEA,1197.14,14365.68,0.7093,High,10190.0,2024-11-30,Automated re-engagement sequence + CSM follow-up
+141,ACC-1077,"Matthews, Harrington and Rodriguez",professional,Sarah Chen,EMEA,1338.28,16059.36,0.5946,High,9549.0,2024-09-03,Automated re-engagement sequence + CSM follow-up
+142,ACC-1778,Rodriguez-Mendoza,starter,James Okonkwo,EMEA,793.59,9523.08,0.9947,Critical,9473.0,2024-12-25,CSM intervention call within 48 hours
+143,ACC-1235,Holt and Sons,starter,Marco Ricci,APAC,787.55,9450.6,0.9894,Critical,9350.0,2025-11-09,CSM intervention call within 48 hours
+144,ACC-1477,Nelson-Wallace,starter,Carlos Vega,EMEA,776.95,9323.4,0.991,Critical,9239.0,2025-12-19,CSM intervention call within 48 hours
+145,ACC-0012,Dudley Group,starter,James Okonkwo,,765.71,9188.52,0.9987,Critical,9177.0,2024-05-28,CSM intervention call within 48 hours
+146,ACC-1101,"Sanders, Leblanc and Maldonado",starter,Lena Müller,APAC,773.06,9276.72,0.9757,Critical,9051.0,2024-11-10,CSM intervention call within 48 hours
+147,ACC-0744,"Alvarez, Williams and Jones",starter,Carlos Vega,,766.13,9193.56,0.9837,Critical,9044.0,2025-06-20,CSM intervention call within 48 hours
+148,ACC-0446,"Osborn, Gaines and Davis",starter,Lena Müller,EMEA,761.23,9134.76,0.9862,Critical,9009.0,2024-06-08,CSM intervention call within 48 hours
+149,ACC-0954,Barnes Inc,starter,Lena Müller,,793.71,9524.52,0.9424,Critical,8976.0,2025-12-12,CSM intervention call within 48 hours
+150,ACC-1793,"Wise, Gray and Snyder",starter,Lena Müller,,751.94,9023.28,0.9935,Critical,8965.0,2025-07-20,CSM intervention call within 48 hours
+151,ACC-0217,Perez-White,starter,Anna Kowalski,EMEA,790.11,9481.32,0.9396,Critical,8909.0,2025-07-20,CSM intervention call within 48 hours
+152,ACC-0981,Orr Group,starter,Priya Sharma,,760.05,9120.6,0.9755,Critical,8897.0,2024-05-19,CSM intervention call within 48 hours
+153,ACC-0572,"Smith, Rodriguez and Anderson",starter,James Okonkwo,,739.65,8875.8,0.9957,Critical,8838.0,2025-06-05,CSM intervention call within 48 hours
+154,ACC-1906,"Barker, Tucker and Mcclure",starter,Anna Kowalski,APAC,741.47,8897.64,0.991,Critical,8818.0,2025-08-07,CSM intervention call within 48 hours
+155,ACC-0881,Watson Ltd,starter,Lena Müller,,748.75,8985.0,0.9812,Critical,8816.0,2025-03-31,CSM intervention call within 48 hours
+156,ACC-0825,"Price, Long and Wilson",starter,Anna Kowalski,,753.54,9042.48,0.9663,Critical,8738.0,2025-03-26,CSM intervention call within 48 hours
+157,ACC-0417,"Mullen, Brewer and Hernandez",starter,Marco Ricci,,733.95,8807.4,0.9856,Critical,8681.0,2024-12-06,CSM intervention call within 48 hours
+158,ACC-1506,Garrett-Black,starter,Lena Müller,APAC,738.93,8867.16,0.9785,Critical,8677.0,2024-11-05,CSM intervention call within 48 hours
+159,ACC-1659,Miller-Chan,starter,Priya Sharma,,727.82,8733.84,0.9928,Critical,8671.0,2025-08-05,CSM intervention call within 48 hours
+160,ACC-1279,"Moreno, Barajas and Colon",starter,Marco Ricci,,772.93,9275.16,0.9315,Critical,8640.0,2025-10-22,CSM intervention call within 48 hours
+161,ACC-1646,"Anderson, Delgado and Carpenter",starter,Lena Müller,,760.17,9122.04,0.9232,Critical,8421.0,2025-02-02,CSM intervention call within 48 hours
+162,ACC-1585,"Short, Ellison and Dixon",starter,Priya Sharma,APAC,733.33,8799.96,0.9478,Critical,8341.0,2025-12-08,CSM intervention call within 48 hours
+163,ACC-1470,"Griffin, Miller and Austin",starter,Anna Kowalski,EMEA,696.99,8363.88,0.9961,Critical,8331.0,2025-09-03,CSM intervention call within 48 hours
+164,ACC-0966,Owens-Russell,starter,Priya Sharma,,725.79,8709.48,0.9563,Critical,8329.0,2025-08-06,CSM intervention call within 48 hours
+165,ACC-0268,Jimenez Ltd,starter,Anna Kowalski,,703.6,8443.2,0.9832,Critical,8301.0,2026-07-18,CSM intervention call within 48 hours
+166,ACC-1991,Fitzgerald-Brown,starter,James Okonkwo,,692.95,8315.4,0.998,Critical,8299.0,2025-03-09,CSM intervention call within 48 hours
+167,ACC-0055,Jones Inc,starter,Sarah Chen,APAC,697.5,8370.0,0.9906,Critical,8291.0,2025-09-19,CSM intervention call within 48 hours
+168,ACC-0431,"Huang, Cole and Pacheco",starter,Priya Sharma,,778.09,9337.08,0.8797,Critical,8214.0,2025-10-11,CSM intervention call within 48 hours
+169,ACC-0483,"Andrews, Higgins and Carter",starter,Anna Kowalski,APAC,690.57,8286.84,0.9876,Critical,8184.0,2024-04-11,CSM intervention call within 48 hours
+170,ACC-0952,Blake Group,starter,James Okonkwo,,678.51,8142.12,0.9983,Critical,8128.0,2026-12-09,CSM intervention call within 48 hours
+171,ACC-0875,Smith-Noble,starter,James Okonkwo,EMEA,679.54,8154.48,0.9968,Critical,8128.0,2025-10-20,CSM intervention call within 48 hours
+172,ACC-0900,Wright Ltd,starter,Sarah Chen,EMEA,683.84,8206.08,0.9871,Critical,8100.0,2025-10-17,CSM intervention call within 48 hours
+173,ACC-1615,Hanson-Alexander,starter,Priya Sharma,,691.61,8299.32,0.9718,Critical,8065.0,2025-07-27,CSM intervention call within 48 hours
+174,ACC-0303,Santana-Byrd,starter,Lena Müller,EMEA,682.11,8185.32,0.984,Critical,8054.0,2024-03-29,CSM intervention call within 48 hours
+175,ACC-1963,"Carroll, Ramirez and Rodriguez",starter,Lena Müller,,679.38,8152.56,0.979,Critical,7981.0,2024-04-16,CSM intervention call within 48 hours
+176,ACC-1116,Silva-Smith,starter,Anna Kowalski,APAC,663.18,7958.16,0.9965,Critical,7930.0,2024-04-02,CSM intervention call within 48 hours
+177,ACC-0804,Barton-Chapman,starter,Lena Müller,APAC,680.4,8164.8,0.9686,Critical,7908.0,2026-01-08,CSM intervention call within 48 hours
+178,ACC-1837,Soto PLC,starter,Carlos Vega,EMEA,672.92,8075.04,0.9713,Critical,7843.0,2025-12-01,CSM intervention call within 48 hours
+179,ACC-1559,Duncan Group,starter,Marco Ricci,APAC,790.92,9491.04,0.8253,Critical,7833.0,2024-05-23,CSM intervention call within 48 hours
+180,ACC-1060,"Contreras, Miller and Cooper",starter,Carlos Vega,APAC,643.09,7717.08,0.9988,Critical,7708.0,2024-09-29,CSM intervention call within 48 hours
+181,ACC-0565,Li PLC,starter,Lena Müller,APAC,686.98,8243.76,0.9312,Critical,7677.0,2026-09-29,CSM intervention call within 48 hours
+182,ACC-0633,Simon Ltd,starter,James Okonkwo,,653.79,7845.48,0.9743,Critical,7644.0,2025-03-31,CSM intervention call within 48 hours
+183,ACC-1317,King and Sons,starter,James Okonkwo,EMEA,649.99,7799.88,0.9647,Critical,7525.0,2025-09-21,CSM intervention call within 48 hours
+184,ACC-1921,"Jackson, Garza and Meyers",starter,Anna Kowalski,,666.12,7993.44,0.9331,Critical,7459.0,2025-04-16,CSM intervention call within 48 hours
+185,ACC-1441,"Ramirez, Walker and Ray",starter,Yuki Tanaka,APAC,705.63,8467.56,0.8742,Critical,7402.0,2025-08-14,CSM intervention call within 48 hours
+186,ACC-0387,"Morales, Thomas and Schultz",starter,James Okonkwo,,698.57,8382.84,0.8772,Critical,7353.0,2025-03-08,CSM intervention call within 48 hours
+187,ACC-1725,"Shaffer, Lewis and Davidson",starter,Marco Ricci,APAC,666.73,8000.76,0.8963,Critical,7171.0,2024-04-17,CSM intervention call within 48 hours
+188,ACC-0476,Gilbert-Bullock,starter,James Okonkwo,APAC,597.39,7168.68,0.9943,Critical,7128.0,2025-09-06,CSM intervention call within 48 hours
+189,ACC-1710,Richardson-Gray,starter,Lena Müller,,591.27,7095.24,0.998,Critical,7081.0,2024-10-12,CSM intervention call within 48 hours
+190,ACC-0398,"Estrada, Williams and Foster",starter,Anna Kowalski,,605.49,7265.88,0.973,Critical,7070.0,2025-06-23,CSM intervention call within 48 hours
+191,ACC-0429,Gilbert PLC,starter,Sarah Chen,EMEA,603.5,7242.0,0.9739,Critical,7053.0,2026-08-13,CSM intervention call within 48 hours
+192,ACC-0903,Abbott Ltd,starter,Marco Ricci,,602.82,7233.84,0.9716,Critical,7028.0,2026-05-01,CSM intervention call within 48 hours
+193,ACC-1126,"Erickson, Armstrong and Lee",starter,Lena Müller,APAC,665.09,7981.08,0.8801,Critical,7024.0,2026-05-16,CSM intervention call within 48 hours
+194,ACC-0396,Reed Inc,starter,Carlos Vega,,593.85,7126.2,0.985,Critical,7019.0,2024-09-21,CSM intervention call within 48 hours
+195,ACC-1577,Kirk-Gutierrez,starter,James Okonkwo,,579.66,6955.92,0.9964,Critical,6931.0,2026-04-26,CSM intervention call within 48 hours
+196,ACC-1403,Arias-Morales,starter,Lena Müller,APAC,731.45,8777.4,0.7892,Critical,6927.0,2025-04-03,CSM intervention call within 48 hours
+197,ACC-1606,Castillo and Sons,starter,Sarah Chen,,580.32,6963.84,0.9937,Critical,6920.0,2025-01-07,CSM intervention call within 48 hours
+198,ACC-1316,"Murray, Dunn and Roberts",starter,Marco Ricci,APAC,614.81,7377.72,0.9336,Critical,6888.0,2024-03-31,CSM intervention call within 48 hours
+199,ACC-0308,Armstrong-Andrews,starter,Priya Sharma,APAC,574.92,6899.04,0.9957,Critical,6869.0,2025-07-01,CSM intervention call within 48 hours
+200,ACC-1548,"Martin, Schmidt and Cole",starter,Marco Ricci,EMEA,587.27,7047.24,0.9705,Critical,6839.0,2025-04-16,CSM intervention call within 48 hours
+201,ACC-0569,Levy-Lewis,starter,James Okonkwo,EMEA,586.34,7036.08,0.969,Critical,6818.0,2025-03-13,CSM intervention call within 48 hours
+202,ACC-0463,"Taylor, Wright and Davidson",starter,Lena Müller,,575.41,6904.92,0.9814,Critical,6776.0,2026-11-17,CSM intervention call within 48 hours
+203,ACC-1422,Maldonado-Mosley,starter,Carlos Vega,APAC,567.96,6815.52,0.9937,Critical,6773.0,2025-04-05,CSM intervention call within 48 hours
+204,ACC-0184,"Higgins, Strickland and Martin",starter,Lena Müller,,642.46,7709.52,0.8781,Critical,6770.0,2025-06-10,CSM intervention call within 48 hours
+205,ACC-1476,Page-Jacobs,starter,Anna Kowalski,APAC,577.0,6924.0,0.9755,Critical,6754.0,2024-12-17,CSM intervention call within 48 hours
+206,ACC-1832,"Osborne, Harrison and Hunt",starter,Carlos Vega,,578.92,6947.04,0.9649,Critical,6703.0,2026-03-05,CSM intervention call within 48 hours
+207,ACC-1303,"Turner, Miller and Hubbard",starter,James Okonkwo,,561.97,6743.64,0.9921,Critical,6690.0,2026-11-09,CSM intervention call within 48 hours
+208,ACC-0773,Thomas-Jackson,starter,Yuki Tanaka,APAC,562.15,6745.8,0.9893,Critical,6674.0,2026-08-12,CSM intervention call within 48 hours
+209,ACC-0106,Nolan and Sons,starter,Priya Sharma,EMEA,557.76,6693.12,0.9928,Critical,6645.0,2025-07-09,CSM intervention call within 48 hours
+210,ACC-1081,Humphrey-Baker,starter,Lena Müller,EMEA,567.3,6807.6,0.9695,Critical,6600.0,2025-07-30,CSM intervention call within 48 hours
+211,ACC-1006,Thompson PLC,starter,James Okonkwo,EMEA,743.59,8923.08,0.7279,High,6495.0,2026-11-02,Automated re-engagement sequence + CSM follow-up
+212,ACC-1874,Erickson Inc,starter,Lena Müller,,543.13,6517.56,0.981,Critical,6394.0,2024-05-18,CSM intervention call within 48 hours
+213,ACC-0195,"Hernandez, Thompson and Boyd",starter,Sarah Chen,APAC,533.05,6396.6,0.9966,Critical,6375.0,2026-09-01,CSM intervention call within 48 hours
+214,ACC-1268,"Palmer, Bennett and Patterson",starter,Lena Müller,APAC,546.98,6563.76,0.9705,Critical,6370.0,2025-01-18,CSM intervention call within 48 hours
+215,ACC-1256,Cervantes-Garcia,starter,Marco Ricci,APAC,572.8,6873.6,0.913,Critical,6276.0,2024-06-02,CSM intervention call within 48 hours
+216,ACC-0301,"Thomas, Murray and King",starter,Yuki Tanaka,,526.7,6320.4,0.9865,Critical,6235.0,2025-04-17,CSM intervention call within 48 hours
+217,ACC-1140,Taylor and Sons,starter,Marco Ricci,APAC,531.22,6374.64,0.9651,Critical,6152.0,2025-05-23,CSM intervention call within 48 hours
+218,ACC-1434,Perez and Sons,starter,Lena Müller,APAC,514.81,6177.72,0.9938,Critical,6139.0,2025-11-04,CSM intervention call within 48 hours
+219,ACC-0137,"Lewis, Kennedy and Santana",starter,Priya Sharma,EMEA,525.49,6305.88,0.9677,Critical,6102.0,2025-11-22,CSM intervention call within 48 hours
+220,ACC-0978,Parks-Pace,starter,Lena Müller,APAC,510.0,6120.0,0.9881,Critical,6047.0,2025-03-08,CSM intervention call within 48 hours
+221,ACC-1276,"Moore, Daniels and Powell",starter,Marco Ricci,,524.32,6291.84,0.9579,Critical,6027.0,2024-05-25,CSM intervention call within 48 hours
+222,ACC-1609,Adams Group,starter,Yuki Tanaka,EMEA,722.98,8675.76,0.6924,High,6007.0,2025-06-08,Automated re-engagement sequence + CSM follow-up
+223,ACC-1758,Hill-Flores,starter,James Okonkwo,EMEA,693.59,8323.08,0.7158,High,5958.0,2026-08-11,Automated re-engagement sequence + CSM follow-up
+224,ACC-1466,Dillon-Mccarty,starter,Priya Sharma,APAC,510.91,6130.92,0.9601,Critical,5886.0,2024-06-29,CSM intervention call within 48 hours
+225,ACC-1614,Jensen-Branch,starter,James Okonkwo,,493.94,5927.28,0.9921,Critical,5880.0,2025-10-08,CSM intervention call within 48 hours
+226,ACC-0848,"Greer, Potter and Evans",starter,Priya Sharma,EMEA,516.06,6192.72,0.941,Critical,5827.0,2025-10-19,CSM intervention call within 48 hours
+227,ACC-0969,Aguirre LLC,starter,Sarah Chen,EMEA,505.04,6060.48,0.959,Critical,5812.0,2024-06-14,CSM intervention call within 48 hours
+228,ACC-0069,Russell Group,starter,Lena Müller,EMEA,498.95,5987.4,0.9702,Critical,5809.0,2025-03-25,CSM intervention call within 48 hours
+229,ACC-1525,"Wright, Wise and Ramos",starter,Anna Kowalski,EMEA,534.62,6415.44,0.9014,Critical,5783.0,2024-04-08,CSM intervention call within 48 hours
+230,ACC-1389,Pearson-King,starter,Marco Ricci,,482.75,5793.0,0.9836,Critical,5698.0,2024-07-27,CSM intervention call within 48 hours
+231,ACC-0914,Hunter-Fuller,starter,Priya Sharma,APAC,602.91,7234.92,0.7817,Critical,5656.0,2026-02-10,CSM intervention call within 48 hours
+232,ACC-1682,White PLC,starter,Priya Sharma,,789.7,9476.4,0.5957,High,5645.0,2026-09-03,Automated re-engagement sequence + CSM follow-up
+233,ACC-1945,Thompson-Santiago,starter,Carlos Vega,,463.3,5559.6,0.9972,Critical,5544.0,2025-07-07,CSM intervention call within 48 hours
+234,ACC-0816,Lopez Ltd,starter,Yuki Tanaka,,461.75,5541.0,0.9918,Critical,5496.0,2025-11-06,CSM intervention call within 48 hours
+235,ACC-0082,Sandoval-Cunningham,starter,Lena Müller,APAC,454.16,5449.92,0.995,Critical,5423.0,2024-04-20,CSM intervention call within 48 hours
+236,ACC-1307,"Phillips, Walters and Evans",starter,Marco Ricci,EMEA,492.94,5915.28,0.8983,Critical,5314.0,2025-04-17,CSM intervention call within 48 hours
+237,ACC-1047,"Fernandez, Guerrero and Evans",starter,Carlos Vega,,446.55,5358.6,0.9903,Critical,5307.0,2025-05-09,CSM intervention call within 48 hours
+238,ACC-0832,Lopez-Reid,starter,Sarah Chen,,448.91,5386.92,0.9834,Critical,5297.0,2025-11-15,CSM intervention call within 48 hours
+239,ACC-0714,Hudson-Sanchez,starter,Carlos Vega,,441.82,5301.84,0.998,Critical,5291.0,2025-09-12,CSM intervention call within 48 hours
+240,ACC-0509,Jackson-Wallace,starter,Lena Müller,,441.13,5293.56,0.9957,Critical,5271.0,2024-08-27,CSM intervention call within 48 hours
+241,ACC-0891,Taylor-Ayala,starter,Priya Sharma,EMEA,756.32,9075.84,0.5756,High,5224.0,2025-11-13,Automated re-engagement sequence + CSM follow-up
+242,ACC-1706,Martin LLC,starter,Lena Müller,EMEA,429.82,5157.84,0.9951,Critical,5133.0,2025-11-06,CSM intervention call within 48 hours
+243,ACC-0197,Marshall-Petersen,starter,Carlos Vega,EMEA,431.23,5174.76,0.9854,Critical,5099.0,2025-05-14,CSM intervention call within 48 hours
+244,ACC-1764,Austin-Morgan,starter,James Okonkwo,APAC,424.65,5095.8,0.9938,Critical,5064.0,2024-08-12,CSM intervention call within 48 hours
+245,ACC-1267,Lopez and Sons,starter,Yuki Tanaka,EMEA,451.79,5421.48,0.9236,Critical,5007.0,2025-10-06,CSM intervention call within 48 hours
+246,ACC-1478,Adkins-Meyer,starter,Yuki Tanaka,APAC,454.11,5449.32,0.9168,Critical,4996.0,2025-07-05,CSM intervention call within 48 hours
+247,ACC-0039,Harrell LLC,starter,Yuki Tanaka,,426.36,5116.32,0.9717,Critical,4972.0,2025-09-28,CSM intervention call within 48 hours
+248,ACC-1139,Moreno-Gutierrez,starter,James Okonkwo,EMEA,423.37,5080.44,0.9728,Critical,4942.0,2026-08-19,CSM intervention call within 48 hours
+249,ACC-0456,Diaz-Ball,starter,Marco Ricci,,786.93,9443.16,0.5223,High,4932.0,2026-10-07,Automated re-engagement sequence + CSM follow-up
+250,ACC-0852,"Norris, Callahan and Bishop",starter,Priya Sharma,EMEA,553.36,6640.32,0.7418,High,4926.0,2025-06-26,Automated re-engagement sequence + CSM follow-up
+251,ACC-1066,"Johnson, Duncan and Black",starter,James Okonkwo,EMEA,671.71,8060.52,0.607,High,4893.0,2024-09-05,Automated re-engagement sequence + CSM follow-up
+252,ACC-0409,Jackson-Meza,starter,James Okonkwo,EMEA,742.55,8910.6,0.547,High,4874.0,2025-12-15,Automated re-engagement sequence + CSM follow-up
+253,ACC-0420,Thompson Ltd,starter,Anna Kowalski,EMEA,620.83,7449.96,0.6377,High,4751.0,2024-09-09,Automated re-engagement sequence + CSM follow-up
+254,ACC-0332,"Turner, Ortiz and Taylor",starter,Sarah Chen,EMEA,412.56,4950.72,0.9587,Critical,4746.0,2025-05-07,CSM intervention call within 48 hours
+255,ACC-1958,Brown-Graham,starter,Marco Ricci,,396.67,4760.04,0.9946,Critical,4734.0,2026-11-10,CSM intervention call within 48 hours
+256,ACC-1151,"Watson, Smith and Morris",starter,Carlos Vega,,395.5,4746.0,0.9853,Critical,4676.0,2025-11-02,CSM intervention call within 48 hours
+257,ACC-0416,"Hicks, Bullock and Bailey",starter,Lena Müller,EMEA,398.17,4778.04,0.9544,Critical,4560.0,2025-09-11,CSM intervention call within 48 hours
+258,ACC-1446,"Holmes, Stewart and Smith",starter,Priya Sharma,EMEA,392.58,4710.96,0.9612,Critical,4528.0,2025-02-28,CSM intervention call within 48 hours
+259,ACC-1840,Washington-Martinez,starter,Sarah Chen,,379.1,4549.2,0.9914,Critical,4510.0,2024-09-10,CSM intervention call within 48 hours
+260,ACC-1482,Jackson Inc,starter,James Okonkwo,APAC,382.44,4589.28,0.9816,Critical,4505.0,2026-06-06,CSM intervention call within 48 hours
+261,ACC-0964,Taylor PLC,starter,Sarah Chen,,693.33,8319.96,0.5386,High,4481.0,2025-12-02,Automated re-engagement sequence + CSM follow-up
+262,ACC-0147,Robinson-Brock,starter,Yuki Tanaka,APAC,393.88,4726.56,0.9474,Critical,4478.0,2024-10-26,CSM intervention call within 48 hours
+263,ACC-0774,Fisher-Washington,starter,James Okonkwo,EMEA,396.17,4754.04,0.9349,Critical,4445.0,2025-07-12,CSM intervention call within 48 hours
+264,ACC-0713,"Butler, Hernandez and Rivera",starter,Priya Sharma,EMEA,375.12,4501.44,0.9868,Critical,4442.0,2026-11-05,CSM intervention call within 48 hours
+265,ACC-0311,"Beltran, Lozano and Mcgee",starter,Sarah Chen,APAC,366.71,4400.52,0.9939,Critical,4374.0,2024-11-30,CSM intervention call within 48 hours
+266,ACC-0581,"Cook, Wells and Bryant",starter,Sarah Chen,EMEA,515.27,6183.24,0.7016,High,4338.0,2024-08-09,Automated re-engagement sequence + CSM follow-up
+267,ACC-0962,Haynes-Moss,starter,Carlos Vega,EMEA,421.43,5057.16,0.8528,Critical,4313.0,2025-10-18,CSM intervention call within 48 hours
+268,ACC-0325,"Diaz, Gibbs and Smith",starter,Anna Kowalski,,380.63,4567.56,0.9348,Critical,4270.0,2025-06-03,CSM intervention call within 48 hours
+269,ACC-1367,"Haney, Dillon and Jackson",starter,Priya Sharma,APAC,372.69,4472.28,0.954,Critical,4267.0,2026-03-31,CSM intervention call within 48 hours
+270,ACC-0231,"Branch, Torres and Oliver",starter,Lena Müller,APAC,360.67,4328.04,0.9849,Critical,4263.0,2026-02-21,CSM intervention call within 48 hours
+271,ACC-0163,"Smith, Gilmore and Johnston",starter,Marco Ricci,EMEA,364.72,4376.64,0.9717,Critical,4253.0,2024-12-18,CSM intervention call within 48 hours
+272,ACC-0628,Mcdowell-Smith,starter,Sarah Chen,EMEA,354.94,4259.28,0.9897,Critical,4215.0,2025-10-22,CSM intervention call within 48 hours
+273,ACC-1273,"Turner, Tyler and Pierce",starter,Carlos Vega,APAC,370.88,4450.56,0.9426,Critical,4195.0,2024-11-03,CSM intervention call within 48 hours
+274,ACC-1565,"Paul, Zamora and Short",starter,Anna Kowalski,APAC,349.13,4189.56,0.9912,Critical,4153.0,2024-06-27,CSM intervention call within 48 hours
+275,ACC-1953,Burgess LLC,starter,Yuki Tanaka,EMEA,348.18,4178.16,0.9933,Critical,4150.0,2025-12-14,CSM intervention call within 48 hours
+276,ACC-0440,King-York,starter,Marco Ricci,EMEA,352.56,4230.72,0.9803,Critical,4147.0,2025-07-24,CSM intervention call within 48 hours
+277,ACC-0309,"Phillips, Spence and Barrett",starter,James Okonkwo,,446.99,5363.88,0.7687,Critical,4123.0,2025-10-19,CSM intervention call within 48 hours
+278,ACC-0492,Anderson-Bell,starter,Sarah Chen,,625.34,7504.08,0.5309,High,3984.0,2026-05-29,Automated re-engagement sequence + CSM follow-up
+279,ACC-1041,"Jones, Mcmahon and Spence",starter,Marco Ricci,EMEA,349.63,4195.56,0.9477,Critical,3976.0,2024-09-21,CSM intervention call within 48 hours
+280,ACC-0995,Mayo Ltd,starter,Priya Sharma,,331.58,3978.96,0.9933,Critical,3952.0,2024-09-29,CSM intervention call within 48 hours
+281,ACC-1875,Gates and Sons,starter,Priya Sharma,,336.85,4042.2,0.9734,Critical,3935.0,2025-04-30,CSM intervention call within 48 hours
+282,ACC-1131,Hardy-Hansen,starter,Sarah Chen,APAC,379.93,4559.16,0.8611,Critical,3926.0,2024-11-13,CSM intervention call within 48 hours
+283,ACC-0901,Wright PLC,starter,James Okonkwo,,369.29,4431.48,0.8827,Critical,3912.0,2024-08-09,CSM intervention call within 48 hours
+284,ACC-1148,Mendez Ltd,starter,Lena Müller,,343.76,4125.12,0.9479,Critical,3910.0,2025-07-04,CSM intervention call within 48 hours
+285,ACC-0363,"Hernandez, Martinez and Weber",starter,Anna Kowalski,APAC,326.3,3915.6,0.9951,Critical,3896.0,2026-07-09,CSM intervention call within 48 hours
+286,ACC-0470,Hughes Inc,starter,Yuki Tanaka,EMEA,424.37,5092.44,0.7649,Critical,3895.0,2024-10-19,CSM intervention call within 48 hours
+287,ACC-0639,Holden Group,starter,Carlos Vega,APAC,319.41,3832.92,0.9895,Critical,3793.0,2025-12-03,CSM intervention call within 48 hours
+288,ACC-1787,Stephens-Young,starter,Anna Kowalski,APAC,360.8,4329.6,0.8673,Critical,3755.0,2025-12-16,CSM intervention call within 48 hours
+289,ACC-1015,"Stark, Schroeder and Mathis",starter,Marco Ricci,,318.49,3821.88,0.9737,Critical,3721.0,2025-10-05,CSM intervention call within 48 hours
+290,ACC-0645,Sullivan PLC,starter,Priya Sharma,EMEA,312.52,3750.24,0.9693,Critical,3635.0,2025-11-18,CSM intervention call within 48 hours
+291,ACC-0600,Fox-Edwards,starter,Anna Kowalski,,383.54,4602.48,0.7881,Critical,3627.0,2024-12-09,CSM intervention call within 48 hours
+292,ACC-0402,Thompson-James,starter,Carlos Vega,,528.48,6341.76,0.5668,High,3595.0,2025-04-07,Automated re-engagement sequence + CSM follow-up
+293,ACC-0120,"Rivera, Johnson and Wiley",starter,Sarah Chen,EMEA,315.88,3790.56,0.9411,Critical,3567.0,2025-12-10,CSM intervention call within 48 hours
+294,ACC-0543,Torres and Sons,starter,Lena Müller,,299.71,3596.52,0.9906,Critical,3563.0,2026-10-28,CSM intervention call within 48 hours
+295,ACC-1961,Cortez-Chen,starter,Priya Sharma,EMEA,300.04,3600.48,0.9701,Critical,3493.0,2025-07-21,CSM intervention call within 48 hours
+296,ACC-1231,Ellis-Lawrence,starter,Marco Ricci,,354.64,4255.68,0.8182,Critical,3482.0,2024-04-29,CSM intervention call within 48 hours
+297,ACC-0348,Willis and Sons,starter,Anna Kowalski,,320.64,3847.68,0.8711,Critical,3352.0,2026-10-06,CSM intervention call within 48 hours
+298,ACC-0468,Wilkerson-Arias,starter,Carlos Vega,,279.76,3357.12,0.995,Critical,3340.0,2025-09-01,CSM intervention call within 48 hours
+299,ACC-1914,"Contreras, Ellis and Gregory",starter,Sarah Chen,EMEA,286.58,3438.96,0.969,Critical,3332.0,2025-05-02,CSM intervention call within 48 hours
+300,ACC-1496,Ballard Group,starter,James Okonkwo,EMEA,439.92,5279.04,0.6192,High,3269.0,2026-01-15,Automated re-engagement sequence + CSM follow-up
+301,ACC-0736,Sutton-Abbott,starter,Anna Kowalski,EMEA,476.52,5718.24,0.5715,High,3268.0,2026-09-27,Automated re-engagement sequence + CSM follow-up
+302,ACC-1001,"Howard, Silva and Hall",starter,Carlos Vega,,275.4,3304.8,0.9855,Critical,3257.0,2025-03-27,CSM intervention call within 48 hours
+303,ACC-1960,Hughes and Sons,starter,Yuki Tanaka,,270.63,3247.56,0.9896,Critical,3214.0,2025-10-16,CSM intervention call within 48 hours
+304,ACC-1887,"Vasquez, Thomas and Mack",starter,Anna Kowalski,EMEA,266.56,3198.72,0.9801,Critical,3135.0,2024-11-07,CSM intervention call within 48 hours
+305,ACC-1643,"Salazar, Garrett and Perez",starter,Carlos Vega,,267.04,3204.48,0.9761,Critical,3128.0,2026-07-09,CSM intervention call within 48 hours
+306,ACC-0797,Rodriguez and Sons,starter,Priya Sharma,EMEA,257.68,3092.16,0.9925,Critical,3069.0,2025-06-22,CSM intervention call within 48 hours
+307,ACC-0734,Chung-Stevens,starter,Lena Müller,,263.06,3156.72,0.9626,Critical,3039.0,2025-11-01,CSM intervention call within 48 hours
+308,ACC-0976,Martinez Inc,starter,James Okonkwo,,424.18,5090.16,0.5967,High,3037.0,2025-04-05,Automated re-engagement sequence + CSM follow-up
+309,ACC-1956,Kane-Bennett,starter,Marco Ricci,APAC,246.45,2957.4,0.9937,Critical,2939.0,2025-11-30,CSM intervention call within 48 hours
+310,ACC-1003,Adams Ltd,starter,James Okonkwo,EMEA,263.89,3166.68,0.9155,Critical,2899.0,2025-06-06,CSM intervention call within 48 hours
+311,ACC-1535,Perkins Ltd,starter,Marco Ricci,EMEA,246.15,2953.8,0.9646,Critical,2849.0,2024-11-05,CSM intervention call within 48 hours
+312,ACC-0808,Bailey LLC,starter,Carlos Vega,EMEA,240.34,2884.08,0.987,Critical,2847.0,2025-08-05,CSM intervention call within 48 hours
+313,ACC-0598,Thornton PLC,starter,James Okonkwo,,237.06,2844.72,0.9926,Critical,2824.0,2026-11-23,CSM intervention call within 48 hours
+314,ACC-1739,"Ferguson, Martin and Obrien",starter,Lena Müller,APAC,352.54,4230.48,0.6663,High,2819.0,2025-08-18,Automated re-engagement sequence + CSM follow-up
+315,ACC-0732,"Hernandez, Lee and Fox",starter,Yuki Tanaka,APAC,385.76,4629.12,0.5896,High,2729.0,2025-03-08,Automated re-engagement sequence + CSM follow-up
+316,ACC-0310,Smith-Grimes,starter,Lena Müller,,233.95,2807.4,0.9718,Critical,2728.0,2025-10-04,CSM intervention call within 48 hours
+317,ACC-0985,Underwood-Foster,starter,Carlos Vega,EMEA,236.9,2842.8,0.9525,Critical,2708.0,2025-12-25,CSM intervention call within 48 hours
+318,ACC-1143,Maxwell Group,starter,Priya Sharma,,227.63,2731.56,0.985,Critical,2691.0,2025-06-03,CSM intervention call within 48 hours
+319,ACC-1483,Brown Group,starter,Carlos Vega,APAC,222.89,2674.68,0.9967,Critical,2666.0,2024-04-02,CSM intervention call within 48 hours
+320,ACC-1619,"Mcintosh, Melton and Wilkins",starter,Anna Kowalski,APAC,220.87,2650.44,0.9955,Critical,2639.0,2025-08-13,CSM intervention call within 48 hours
+321,ACC-0011,Blair PLC,starter,Sarah Chen,,215.25,2583.0,0.9944,Critical,2569.0,2024-06-11,CSM intervention call within 48 hours
+322,ACC-1352,Kaufman-Walker,starter,Yuki Tanaka,APAC,213.41,2560.92,0.9963,Critical,2551.0,2025-08-09,CSM intervention call within 48 hours
+323,ACC-0350,"Smith, Garrison and Thomas",starter,Priya Sharma,APAC,213.46,2561.52,0.9907,Critical,2538.0,2024-08-06,CSM intervention call within 48 hours
+324,ACC-0988,Ramirez-Stephenson,starter,Marco Ricci,EMEA,211.5,2538.0,0.9912,Critical,2516.0,2025-10-27,CSM intervention call within 48 hours
+325,ACC-1656,Lopez PLC,starter,James Okonkwo,EMEA,321.97,3863.64,0.6345,High,2451.0,2025-08-02,Automated re-engagement sequence + CSM follow-up
+326,ACC-0407,Berry-Mckinney,starter,Yuki Tanaka,APAC,214.22,2570.64,0.9345,Critical,2402.0,2024-10-05,CSM intervention call within 48 hours
+327,ACC-0423,"Downs, Morris and Maddox",starter,Carlos Vega,APAC,285.97,3431.64,0.6695,High,2297.0,2024-03-28,Automated re-engagement sequence + CSM follow-up
+328,ACC-1756,"Edwards, Lane and Collins",starter,Lena Müller,,218.67,2624.04,0.8485,Critical,2226.0,2026-09-24,CSM intervention call within 48 hours
+329,ACC-1826,Nixon-Miller,starter,Lena Müller,,286.55,3438.6,0.6384,High,2195.0,2025-07-05,Automated re-engagement sequence + CSM follow-up
+330,ACC-1331,"Jones, Smith and Hunter",starter,Carlos Vega,APAC,275.18,3302.16,0.6451,High,2130.0,2025-05-25,Automated re-engagement sequence + CSM follow-up
+331,ACC-1624,"Webb, Blair and Thomas",starter,Lena Müller,,281.74,3380.88,0.6159,High,2082.0,2024-03-27,Automated re-engagement sequence + CSM follow-up
+332,ACC-1649,Douglas PLC,starter,Anna Kowalski,EMEA,200.2,2402.4,0.8643,Critical,2076.0,2025-11-26,CSM intervention call within 48 hours
+333,ACC-1849,Larson and Sons,starter,James Okonkwo,,205.46,2465.52,0.7754,Critical,1912.0,2024-04-06,CSM intervention call within 48 hours
+334,ACC-0026,Wilkerson-Day,starter,Yuki Tanaka,,209.27,2511.24,0.6178,High,1551.0,2026-09-14,Automated re-engagement sequence + CSM follow-up
