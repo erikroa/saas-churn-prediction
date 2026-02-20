@@ -115,7 +115,7 @@ Raw CSVs → Feature Engineering → Train/Test Split (80/20 stratified)
 Class imbalance (85/15) is handled via `scale_pos_weight` in XGBoost and `class_weight='balanced'` in scikit-learn models.
 
 ### A Note on Synthetic Data
-Synthetic data produces cleaner feature separation than production data. In a real deployment, I would expect AUC in the 0.75–0.85 range, with NPS and usage trends remaining the strongest signals but with substantially more noise from external churn causes — budget cuts, acquisitions, competitive switches - that leave no behavioral footprint in the data.
+Synthetic data produces cleaner feature separation than production data. In a real deployment, I would expect AUC in the 0.75–0.85 range, with NPS and usage trends remaining the strongest signals but with substantially more noise from external churn causes - budget cuts, acquisitions, competitive switches - that leave no behavioral footprint in the data.
 
 ---
 
