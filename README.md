@@ -115,7 +115,7 @@ Raw CSVs → Feature Engineering → Train/Test Split (80/20 stratified)
 Class imbalance (85/15) is handled via `scale_pos_weight` in XGBoost and `class_weight='balanced'` in scikit-learn models.
 
 ### A Note on Synthetic Data
-Synthetic data produces cleaner feature separation than production data. In a real deployment, I would expect AUC in the 0.75–0.85 range, with NPS and usage trends remaining the strongest signals but with substantially more noise from external churn causes — budget cuts, acquisitions, competitive switches — that leave no behavioral footprint in the data.
+Synthetic data produces cleaner feature separation than production data. In a real deployment, I would expect AUC in the 0.75–0.85 range, with NPS and usage trends remaining the strongest signals but with substantially more noise from external churn causes — budget cuts, acquisitions, competitive switches - that leave no behavioral footprint in the data.
 
 ---
 
@@ -196,9 +196,9 @@ jupyter notebook notebooks/01_eda.ipynb
 
 This project is part of a connected NovaCRM analytics portfolio:
 
-- **[nova-customer-intelligence](https://github.com/erikroa/nova-customer-intelligence)** — dbt project with rule-based customer health scoring, 157 passing tests, Looker Studio dashboard
-- **[revenue-ops-analytics](https://github.com/erikroa/revenue-ops-analytics)** — SaaS revenue analysis with BigQuery and Looker Studio
-- **[SaaS-Support-Ticket-Analysis](https://github.com/erikroa/SaaS-Support-Ticket-Analysis)** — Customer support operations analysis with Python
+- **[nova-customer-intelligence](https://github.com/erikroa/nova-customer-intelligence)** - dbt project with rule-based customer health scoring, 157 passing tests, Looker Studio dashboard
+- **[revenue-ops-analytics](https://github.com/erikroa/revenue-ops-analytics)** - SaaS revenue analysis with BigQuery and Looker Studio
+- **[SaaS-Support-Ticket-Analysis](https://github.com/erikroa/SaaS-Support-Ticket-Analysis)** - Customer support operations analysis with Python
 
 ---
 
